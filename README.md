@@ -22,11 +22,14 @@ To run the code, you will need **Python 3.11**, **PyTorch 2.6.0**, and **CUDA 12
 
 Follow these steps to set up the environment:
 
-**1. Create a new conda environment named `gladformer`:**
-
+**1. Create a new conda environment named `gladformer`：**
 ```bash
 conda create -n gladformer python=3.11 -y
 conda activate gladformer
+```
+**2.Install PyTorch and dependencies**
+
+```bash
 pip install torch==2.6.0 torchvision torchaudio
 pip install -r requirements.txt
 ```
