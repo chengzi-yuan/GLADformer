@@ -45,12 +45,8 @@ The RSDD dataset for this project has been released!
 Thanks to the contributors of these datasets for their outstanding work！
 
 > ### 📥 Download Dataset
-> | [**RSHaze**](https://pan.baidu.com/s/1-lSjalsgpFOWP_6UFxTPMA?pwd=glad) | [**RSHaze_L**](https://pan.baidu.com/s/143KeIJsE2lx7CBlM4MW3Rg?pwd=l7yj) |  [**Baidu Netdisk**](https://pan.baidu.com/s/1wBpnH1iXrlovr64Q6-lKLA?pwd=g1c2)
- |
+> | [**RSHaze**](https://pan.baidu.com/s/1-lSjalsgpFOWP_6UFxTPMA?pwd=glad) | [**RSHaze_L**](https://pan.baidu.com/s/143KeIJsE2lx7CBlM4MW3Rg?pwd=l7yj) |  [**Baidu Netdisk**](https://pan.baidu.com/s/1wBpnH1iXrlovr64Q6-lKLA?pwd=g1c2)|
 > | :--- | :--- | :--- |
-> | **RSHaze** |[**Baidu Netdisk**](https://pan.baidu.com/s/1-lSjalsgpFOWP_6UFxTPMA?pwd=glad)
-> | **RSHaze_L** |[**Baidu Netdisk**](https://pan.baidu.com/s/143KeIJsE2lx7CBlM4MW3Rg?pwd=l7yj)
-> | **RRSHID and RSID** |[**Baidu Netdisk**](https://pan.baidu.com/s/1wBpnH1iXrlovr64Q6-lKLA?pwd=g1c2)
 
 Please download the dataset and organize it following the directory structure below. Make sure the ground truth (GT) and hazy images are placed in their respective `train` and `test` folders inside the `data/RSDD/` directory.
 
