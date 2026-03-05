@@ -26,7 +26,10 @@ Follow these steps to set up the environment:
 
 ```bash
 conda create -n gladformer python=3.11 -y
-
+conda activate gladformer
+pip install torch==2.6.0 torchvision torchaudio
+pip install -r requirements.txt
+```bash
 ---
 ## 📂 Dataset Preparation
 
