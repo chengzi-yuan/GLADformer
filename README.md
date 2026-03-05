@@ -19,7 +19,6 @@ We are continuously updating this repository. Here is our current progress:
 ## ⚙️ Environment Preparation
 
 To run the code, you will need **Python 3.11**, **PyTorch 2.6.0**, and **CUDA 12.6**. 
-*(Note: Other environment configurations might also run our code successfully.)*
 
 Follow these steps to set up the environment:
 
@@ -28,7 +27,7 @@ Follow these steps to set up the environment:
 conda create -n gladformer python=3.11 -y
 conda activate gladformer
 ```
-**2.Install PyTorch and dependencies**
+**2. Install PyTorch and dependencies：**
 
 ```bash
 pip install torch==2.6.0 torchvision torchaudio
@@ -41,6 +40,7 @@ pip install -r requirements.txt
 The RSDD dataset for this project has been released! 
 
 Please download the dataset and organize it following the directory structure below. Make sure the ground truth (GT) and hazy images are placed in their respective `train` and `test` folders inside the `data/RSDD/` directory.
+
 The final file path should be the same as the following:
 ```text
 ┬─ save_models
