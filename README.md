@@ -16,7 +16,18 @@ We are continuously updating this repository. Here is our current progress:
 - [ ] 📦 **Publish the pre-trained weights**
 
 ---
+## ⚙️ Environment Preparation
 
+To run the code, you will need **Python 3.11**, **PyTorch 2.6.0**, and **CUDA 12.6**. 
+
+Follow these steps to set up the environment:
+
+**1. Create a new conda environment named `gladformer`:**
+
+```bash
+conda create -n gladformer python=3.11 -y
+
+---
 ## 📂 Dataset Preparation
 
 The RSDD dataset for this project has been released! 
