@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ---
 ## 📂 Dataset Preparation
 
-The RSDD dataset for this project has been released! 
+The RSDSD dataset for this project has been released! 
 
 **The dataset we used can be downloaded here：**
 
