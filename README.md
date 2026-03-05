@@ -41,20 +41,27 @@ pip install -r requirements.txt
 The RSDD dataset for this project has been released! 
 
 Please download the dataset and organize it following the directory structure below. Make sure the ground truth (GT) and hazy images are placed in their respective `train` and `test` folders inside the `data/RSDD/` directory.
-
+The final file path should be the same as the following:
 ```text
-data/
-└── RSDD/
-    ├── train/
-    │   ├── GT/          # Ground Truth (clear) images for training
-    │   └── hazy/        # Hazy images for training
-    └── test/
-        ├── GT/          # Ground Truth (clear) images for testing
-        └── hazy/        # Hazy images for testing
-    RSHaze/
-    ├── train/
-    │   ├── GT/          
-    │   └── hazy/        
-    └── test/
-        ├── GT/          
-        └── hazy/
+┬─ save_models
+│   ├─ RSHaze/
+│   │   ├─ gladformer-b.pth
+│   │   └─ ... (model name)
+│   └─ ... (exp name)
+└─ data/
+    ├─ RSHaze/
+    │   ├─ train/
+    │   │   ├─ GT/
+    │   │   │   └─ ... (image filename)                 # Ground Truth (clear) images for training
+    │   │   └─ hazy/
+    │   │       └─ ... (corresponds to the former)      # Hazy images for training
+    │   └─ test/
+    │   │   ├─ GT/                                      # Ground Truth (clear) images for testing
+    │   │   └─ hazy/                                    # Hazy images for testing
+    ├─ RSDSD/
+    │   ├─ train/
+    │   │   ├─ GT/
+    │   │   └─ hazy/
+    │   └─ test/
+    │       └─ ...
+    └─ ... (dataset name)
