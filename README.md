@@ -40,7 +40,10 @@ pip install -r requirements.txt
 
 The RSDD dataset for this project has been released! 
 
-RSHaze：[**Click Here to Download**](https://pan.baidu.com/s/1-lSjalsgpFOWP_6UFxTPMA?pwd=glad)[![Data](https://img.shields.io/badge/Data-BaiduPan-brightgreen.svg)](https://pan.baidu.com/s/1-lSjalsgpFOWP_6UFxTPMA?pwd=glad)
+**The dataset we used can be downloaded here：**
+Thanks to the contributors of these datasets for their outstanding work！
+[**RSHaze**](https://pan.baidu.com/s/1-lSjalsgpFOWP_6UFxTPMA?pwd=glad)
+
 Please download the dataset and organize it following the directory structure below. Make sure the ground truth (GT) and hazy images are placed in their respective `train` and `test` folders inside the `data/RSDD/` directory.
 
 The final file path should be the same as the following:
