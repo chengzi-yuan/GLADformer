@@ -50,3 +50,10 @@ data/
     └── test/
         ├── GT/          # Ground Truth (clear) images for testing
         └── hazy/        # Hazy images for testing
+    RSHaze/
+    ├── train/
+    │   ├── GT/          
+    │   └── hazy/        
+    └── test/
+        ├── GT/          
+        └── hazy/
