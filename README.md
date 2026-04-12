@@ -2,7 +2,7 @@
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data](https://pan.baidu.com/s/1z79wOSwqn_VG7WGFFLAQ1Q?pwd=glad)
+[![Data](https://img.shields.io/badge/Data-BaiduPan-brightgreen.svg)](https://pan.baidu.com/s/1kkd28DAT77nwmEZwgPbPfQ?pwd=glad)
 
 > Welcome to the official code and dataset repository for the paper **GLADformer**. 
 
@@ -39,8 +39,7 @@ pip install -r requirements.txt
 
 The RSDSD dataset for this project has been released! 
 
-**The dataset we used can be downloaded here：**通过网盘分享的文件：RSID.zip等2个文件
-链接: https://pan.baidu.com/s/1MbNnTrwKyO1wHuzH9qGTjg?pwd=glad 提取码: glad
+**The dataset we used can be downloaded here：**
 
 Thanks to the contributors of these datasets for their outstanding work！
 
