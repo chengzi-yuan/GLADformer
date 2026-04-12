@@ -2,7 +2,7 @@
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data](https://img.shields.io/badge/Data-BaiduPan-brightgreen.svg)](https://pan.baidu.com/s/1-lSjalsgpFOWP_6UFxTPMA?pwd=glad)
+[![Data](https://pan.baidu.com/s/1z79wOSwqn_VG7WGFFLAQ1Q?pwd=glad)
 
 > Welcome to the official code and dataset repository for the paper **GLADformer**. 
 
@@ -29,7 +29,6 @@ conda create -n gladformer python=3.11 -y
 conda activate gladformer
 ```
 **2. Install PyTorch and dependencies：**
-
 ```bash
 pip install torch==2.6.0 torchvision torchaudio
 pip install -r requirements.txt
@@ -40,13 +39,14 @@ pip install -r requirements.txt
 
 The RSDSD dataset for this project has been released! 
 
-**The dataset we used can be downloaded here：**
+**The dataset we used can be downloaded here：**通过网盘分享的文件：RSID.zip等2个文件
+链接: https://pan.baidu.com/s/1MbNnTrwKyO1wHuzH9qGTjg?pwd=glad 提取码: glad
 
 Thanks to the contributors of these datasets for their outstanding work！
 
 > ### 📥 Download Dataset
->| **Baidu Netdisk** | [**RSHaze**](https://pan.baidu.com/s/1-lSjalsgpFOWP_6UFxTPMA?pwd=glad) | [**RSHaze_L**](https://pan.baidu.com/s/143KeIJsE2lx7CBlM4MW3Rg?pwd=l7yj) |  [**RRSHID and RSID**](https://pan.baidu.com/s/1wBpnH1iXrlovr64Q6-lKLA?pwd=g1c2) | [**RSDSD**](https://pan.baidu.com/s/1kkd28DAT77nwmEZwgPbPfQ?pwd=glad) |
->| :--- | :--- | :--- | :--- | :--- |
+>| **Baidu Netdisk** | [**RSHaze**](https://pan.baidu.com/s/1z79wOSwqn_VG7WGFFLAQ1Q?pwd=glad) | [**RSHaze_L**](https://pan.baidu.com/s/1QNveAuDcSKwHiHCx-CL9HA?pwd=glad) |  [**RRSHID and RSID**](https://pan.baidu.com/s/1MbNnTrwKyO1wHuzH9qGTjg?pwd=glad) | [**RSDSD**](https://pan.baidu.com/s/1kkd28DAT77nwmEZwgPbPfQ?pwd=glad)  | **Baidu Pan access code：glad** |
+>| :--- | :--- | :--- | :--- | :--- | :--- |
 
 Please download the dataset and organize it following the directory structure below. Make sure the ground truth (GT) and hazy images are placed in their respective `train` and `test` folders inside the `data/RSHaze/` directory.
 
