@@ -14,7 +14,7 @@ We are continuously updating this repository. Here is our current progress:
 
 - [x] 📊 **Publish the dataset**
 - [ ] 💻 **Publish the training code**
-- [ ] 📦 **Publish the pre-trained weights**
+- [x] 📦 **Publish the pre-trained weights**
 
 ---
 ## ⚙️ Environment Preparation
@@ -75,7 +75,24 @@ The final file path should be the same as the following:
     └─ ... (dataset name)
 ```
 
+## 📥 Pre-trained Weights
 
+We provide the pre-trained weights for evaluation. You can download them via the following link:
 
+- **Baidu Netdisk**: [Download Here](https://pan.baidu.com/s/108RJoSLZu9zj6xdCuyruNg?pwd=glad)
+- **Extraction Code**: `glad`
+
+### 📂 Directory Configuration
+
+After downloading, please ensure the `.pth` file is placed in the correct path so the scripts can locate it automatically. The expected project hierarchy is as follows:
+
+```text
+GLADformer/
+├── ...
+├── saved_models/
+│   └── Haze1k_thin/
+│       └── dehazeformer-t.pth  <-- Place the downloaded file here
+├── ...
+```
 
 > 🚧 **Note**: The code is currently being organized and will be available soon. Thank you for your patience!
