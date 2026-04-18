@@ -98,4 +98,4 @@ GLADformer/
 ├── ...
 ```
 
-> 🚧 **Note**: The code is currently being organized and will be available soon. Thank you for your patience!(Training code will be released once the paper is accepted.)1
+> 🚧 **Note**: The code is currently being organized and will be available soon. Thank you for your patience!(Training code will be released once the paper is accepted.)
