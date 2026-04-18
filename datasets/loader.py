@@ -11,6 +11,7 @@ def augment(imgs=[], size=256, edge_decay=0., only_h_flip=False):
 	H, W, _ = imgs[0].shape
 	Hc, Wc = [size, size]
 
+	# simple re-weight for the edge. chengzi
 	if random.random() < Hc / H * edge_decay:
 		Hs = 0 if random.randint(0, 1) == 0 else H - Hc
 	else:
@@ -96,7 +97,8 @@ class SingleLoader(Dataset):
 	def __getitem__(self, idx):
 		cv2.setNumThreads(0)
 		cv2.ocl.setUseOpenCL(False)
-
+		
+		# read image, and scale [0, 1] to [-1, 1]. chengzi
 		img_name = self.img_names[idx]
 		img = read_img(os.path.join(self.root_dir, img_name)) * 2 - 1
 
