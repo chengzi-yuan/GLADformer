@@ -13,7 +13,7 @@
 We are continuously updating this repository. Here is our current progress:
 
 - [x] 📊 **Publish the dataset**
-- [ ] 💻 **Publish the training code**
+- [ ] 💻 **Publish the training code(The training code will be released upon acceptance of the paper.)**
 - [x] 📦 **Publish the pre-trained weights**
 
 ---
@@ -90,8 +90,11 @@ After downloading, please ensure the `.pth` file is placed in the correct path s
 GLADformer/
 ├── ...
 ├── saved_models/
-│   └── Haze1k_thin/
-│       └── dehazeformer-t.pth  <-- Place the downloaded file here
+│   └── RSHaze/
+│   │   └── gladformer-t.pth  <-- Place the downloaded file here
+│   │   └─ ... (model name)
+│   ├─ Haze1k_thin/
+│       └── gladformer-t.pth
 ├── ...
 ```
 
