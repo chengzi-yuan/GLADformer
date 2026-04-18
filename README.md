@@ -13,7 +13,7 @@
 We are continuously updating this repository. Here is our current progress:
 
 - [x] 📊 **Publish the dataset**
-- [ ] 💻 **Publish the training code(The training code will be released upon acceptance of the paper.)**
+- [ ] 💻 **Publish the training code(Training code will be released once the paper is accepted.)**
 - [x] 📦 **Publish the pre-trained weights**
 
 ---
@@ -98,4 +98,4 @@ GLADformer/
 ├── ...
 ```
 
-> 🚧 **Note**: The code is currently being organized and will be available soon. Thank you for your patience!
+> 🚧 **Note**: The code is currently being organized and will be available soon. Thank you for your patience!(Training code will be released once the paper is accepted.)
