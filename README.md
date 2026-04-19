@@ -14,7 +14,7 @@ We are continuously updating this repository. Here is our current progress:
 
 - [x] 📊 **Publish the dataset**
 - [ ] 💻 **Publish the training code(Training code will be released once the paper is accepted.)**
-- [x] 📦 **Publish the pre-trained weights**
+- [x] 📦 **Publish the pre-trained models**
 
 ---
 ## ⚙️ Environment Preparation
@@ -75,9 +75,9 @@ The final file path should be the same as the following:
     └─ ... (dataset name)
 ```
 
-## 📥 Pre-trained Weights
+## 📥 Pre-trained Models
 
-We provide the pre-trained weights for evaluation. You can download them via the following link:
+We provide the pre-trained models for evaluation. You can download them via the following link:
 
 - **Baidu Netdisk**: [Download Here](https://pan.baidu.com/s/108RJoSLZu9zj6xdCuyruNg?pwd=glad)
 - **Extraction Code**: `glad`
