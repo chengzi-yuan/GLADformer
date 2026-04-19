@@ -33,7 +33,7 @@ conda activate gladformer
 pip install torch==2.6.0 torchvision torchaudio
 pip install -r requirements.txt
 ```
-- `opencv-python` (*Note: Please install via `pip`. Conda versions use different JPEG codecs and may yield lower results.*)
+- `opencv-python` (*Note: Please install via `pip`. Conda versions use different JPEG codecs and may yield different test results.*)
 
 ---
 ## 📂 Dataset Preparation
@@ -105,6 +105,6 @@ GLADformer/
 
 > 🚧 **Note**: The code is currently being organized and will be available soon. Thank you for your patience!(Training code will be released once the paper is accepted.)
 
-## Contact
+## 📧 Contact
 
 Send email to [congzhangyang@outlook.com](mailto:congzhangyang@outlook.com) if you have urgent issues that cannot be resolved.
