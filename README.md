@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ---
 ## 📂 Dataset Preparation
 
-The RSDSD dataset for this project has been released! 
+The RSDSD dataset we proposed has been released! 
 
 **The dataset we used can be downloaded here：**
 
@@ -51,11 +51,11 @@ Please download the dataset and organize it following the directory structure be
 
 The final file path should be the same as the following:
 ```text
-┬─ save_models
-│   ├─ RSHaze/
-│   │   ├─ gladformer-b.pth
+┬─ configs
+│   ├─ RSHaze/                                          # Please ensure that the configuration file matches the dataset name
+│   │   ├─ gladformer-b.json
 │   │   └─ ... (model name)
-│   └─ ... (exp name)
+│   └─ ... (dataset name)
 └─ data/
     ├─ RSHaze/
     │   ├─ train/
@@ -75,7 +75,9 @@ The final file path should be the same as the following:
     └─ ... (dataset name)
 ```
 
-## 📥 Pre-trained Models
+## 🚀 Quick Evaluation
+
+### 📥 Pre-trained Models
 
 We provide the pre-trained models for evaluation. You can download them via the following link:
 
@@ -98,4 +100,10 @@ GLADformer/
 ├── ...
 ```
 
+## 🚂 Model Training
+
 > 🚧 **Note**: The code is currently being organized and will be available soon. Thank you for your patience!(Training code will be released once the paper is accepted.)
+
+## Contact
+
+Send email to [congzhangyang@outlook.com](mailto:congzhangyang@outlook.com) if you have urgent issues that cannot be resolved.
