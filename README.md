@@ -13,7 +13,7 @@
 We are continuously updating this repository. Here is our current progress:
 
 - [x] 📊 **Publish the dataset**
-- [ ] 💻 **Publish the training code(Training code will be released once the paper is accepted.)**
+- [ ] 💻 **Publish the training code (Training code will be released once the paper is accepted.)**
 - [x] 📦 **Publish the pre-trained models**
 
 ---
@@ -30,7 +30,7 @@ conda activate gladformer
 ```
 **2. Install PyTorch and dependencies：**
 ```bash
-pip install torch==2.5.1 torchvision torchaudio
+pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu124
 pip install -r requirements.txt
 ```
 - `opencv-python` (*Note: Please install via `pip`. Conda versions use different JPEG codecs and may yield different test results.*)
