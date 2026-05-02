@@ -107,6 +107,7 @@ Once you have correctly named all the required files and placed them in the dire
 python test.py --model (model name) --dataset (dataset name) --exp (config name) --num_workers 0
 ```
 The configs files contain the training settings for the models. `model name` is the name of the model you want to test, and `dataset name` is the name of the dataset you want to test on. 
+
 For more details on command-line arguments and their usage, please refer to `test.py`.
 
 **For example, we test GLADformer-B on the RSHaze dataset：**
