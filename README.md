@@ -19,7 +19,7 @@ We are continuously updating this repository. Here is our current progress:
 ---
 ## ⚙️ Environment Preparation
 
-To run the code, you will need **Python 3.11**, **PyTorch 2.6.0**, and **CUDA 12.6**. 
+To run the code, you will need **Python 3.11**, **PyTorch 2.5.1**, and **CUDA 12.4**. 
 
 Follow these steps to set up the environment:
 
@@ -30,7 +30,7 @@ conda activate gladformer
 ```
 **2. Install PyTorch and dependencies：**
 ```bash
-pip install torch==2.6.0 torchvision torchaudio
+pip install torch==2.5.1 torchvision torchaudio
 pip install -r requirements.txt
 ```
 - `opencv-python` (*Note: Please install via `pip`. Conda versions use different JPEG codecs and may yield different test results.*)
@@ -99,6 +99,16 @@ GLADformer/
 │   ├─ Haze1k_thin/
 │       └── gladformer-t.pth
 ├── ...
+```
+Once you have correctly named all the required files and placed them in the directory paths specified above, you can proceed to test the model.
+**Run the following command in your terminal:**
+```text
+python test.py --model (model name) --dataset (dataset name) --exp (config name) --num_workers 0
+```
+The configs files contain the training settings for the models. `model name` is the name of the model you want to test, and `dataset name` is the name of the dataset you want to test on.
+For example, we test GLADformer-B on the RSHaze dataset.
+```text
+python test.py --model gladformer-b --dataset rshaze --exp RSHaze --num_workers 4
 ```
 
 ## 🚂 Model Training
