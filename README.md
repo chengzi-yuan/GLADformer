@@ -23,12 +23,12 @@ To run the code, you will need **Python 3.11**, **PyTorch 2.5.1**, and **CUDA 12
 
 Follow these steps to set up the environment:
 
-**1. Create a new conda environment named `gladformer`：**
+**1. Create a new conda environment named `gladformer`:**
 ```bash
 conda create -n gladformer python=3.11 -y
 conda activate gladformer
 ```
-**2. Install PyTorch and dependencies：**
+**2. Install PyTorch and dependencies:**
 ```bash
 pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu124
 pip install -r requirements.txt
@@ -40,12 +40,12 @@ pip install -r requirements.txt
 
 The RSDSD dataset we proposed has been released! 
 
-**The dataset we used can be downloaded here：**
+**The dataset we used can be downloaded here:**
 
-Thanks to the contributors of these datasets for their outstanding work！
+Thanks to the contributors of these datasets for their outstanding work!
 
 > ### 📥 Download Dataset
->| **Baidu Netdisk** | [**RSHaze**](https://pan.baidu.com/s/1z79wOSwqn_VG7WGFFLAQ1Q?pwd=glad) | [**RSHaze_L**](https://pan.baidu.com/s/1QNveAuDcSKwHiHCx-CL9HA?pwd=glad) |  [**RRSHID and RSID**](https://pan.baidu.com/s/1MbNnTrwKyO1wHuzH9qGTjg?pwd=glad) | [**RSDSD**](https://pan.baidu.com/s/1kkd28DAT77nwmEZwgPbPfQ?pwd=glad)  | **Baidu Pan access code：glad** |
+>| **Baidu Netdisk** | [**RSHaze**](https://pan.baidu.com/s/1z79wOSwqn_VG7WGFFLAQ1Q?pwd=glad) | [**RSHaze_L**](https://pan.baidu.com/s/1QNveAuDcSKwHiHCx-CL9HA?pwd=glad) |  [**RRSHID and RSID**](https://pan.baidu.com/s/1MbNnTrwKyO1wHuzH9qGTjg?pwd=glad) | [**RSDSD**](https://pan.baidu.com/s/1kkd28DAT77nwmEZwgPbPfQ?pwd=glad)  | **Baidu Pan access code:glad** |
 >| :--- | :--- | :--- | :--- | :--- | :--- |
 
 Please download the dataset and organize it following the directory structure below. Make sure the ground truth (GT) and hazy images are placed in their respective `train` and `test` folders inside the `data/RSHaze/` directory.
@@ -104,13 +104,13 @@ Once you have correctly named all the required files and placed them in the dire
 
 **Run the following command in your terminal:**
 ```text
-python test.py --model (model name) --dataset (dataset name) --exp (config name) --num_workers 0
+python test.py --model <model_name> --dataset <dataset_name> --exp <config_name> --num_workers 0
 ```
-The configs files contain the training settings for the models. `model name` is the name of the model you want to test, and `dataset name` is the name of the dataset you want to test on. 
+The configs files contain the training settings for the models. `model_name` is the name of the model you want to test, and `dataset_name` is the name of the dataset you want to test on. 
 
 For more details on command-line arguments and their usage, please refer to `test.py`.
 
-**For example, we test GLADformer-B on the RSHaze dataset：**
+**For example, we test GLADformer-B on the RSHaze dataset:**
 ```text
 python test.py --model gladformer-b --dataset RSHaze --exp RSHaze --num_workers 4
 ```
