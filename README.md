@@ -1,4 +1,4 @@
-# GLADformer: A Resolution-Aware Linear Agent Transformer with Global Context for Remote Sensing Image Dehazing
+# GLADformer: A Resolution-Aware Global Linear Adaptive Beacon Transformer for Remote Sensing Image Dehazing
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
